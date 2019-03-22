@@ -1,0 +1,25 @@
+/* carousel.css */
+.carousel {
+    text-align: center;
+    font-size: 0;
+    height: 102px;
+    width: 100%;
+}
+
+.carousel > div {
+    height: 102px;
+    width: auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.carousel > div > div {
+    display: inline-block;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+.carousel div > div > img {
+    width: 100px;
+    box-sizing: border-box;
+}
